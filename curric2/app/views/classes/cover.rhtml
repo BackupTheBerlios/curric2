@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="type" content="text/html;charset=utf8" />
+<meta name="Application" content="<%= $Appname %>"/>
+<meta name="Programmer" content="Noam Samuel" />
+<meta name="Version" content="<%= $version %>"/>
+<title><%= $Appname %></title>
+<style type="text/css">
+<%= $css %>
+</style>
+</head>
+<body>
+<div id="header"><h1><%= $Appname %></h1></div>
+<div class="nav floatcontainer" id="topnav"><ul> <li> <a href="<%= $siteurl %>">home</a></li> <% @departments.each do |department| %><li <% if department==@dep %>class="selected"<% end %><%= link_to department.name, :controller => "classes", :action => "department", :id => department.id %></li><% end %></ul></div>
+<div id="container" class="floatcontainer">
+<ul class="nuv subnav"><% @subjects.each do |subject| %><li><%= link_to subject.name, :controller => "classes", :action => "cover", :id => subject.id %></li><% end %></ul>
+<div class="a"><h3>What's going on?</h3><%= textilize @subj.description %><h3>Documents for current unit</h3><ul class="documents"><% @documents.each do |document| %><li><%= link_to document.name, :controller => "classes", :action => "document", :id => document.id %></li><% end %></ul><h3>Units for this class:</h3><ul class="documents"><% @units.each do |unit| %><li><%= link_to unit.name, {:controller => "classes", :action => "id", :id => unit.id} %> </li> <% end %></div>
+<div class="b">
+<h2><%= @subj.name %> </h2><h3><%= "current unit:" + @unit.name %></h3><%= textilize(@unit.page[0, 300]) %><%= link_to "More...", {:controller => "classes", :action => "unit", :id => @unit.id} %>
+<% if @units_onpage != nil %>
+<h3>Other units</h3>
+<% @units_onpage.each do |unit| %><h4><%= unit.name %></h4><%= textilize(unit[0,200]) %><%= link_to "more...", {:controller => "classes", :action => "unit", :id => unit.id} %> <% end %></ul>
+<% end %>
+</div>
+</div>
+<div id="footer"><%= $Footer %></div>
+</body>
+</html>

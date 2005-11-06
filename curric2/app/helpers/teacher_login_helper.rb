@@ -1,0 +1,2 @@
+module TeacherLoginHelper
+end

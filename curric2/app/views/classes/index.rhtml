@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="type" content="text/html;charset=utf8" />
+<meta name="Application" content="<%= $Appname %>"/>
+<meta name="Programmer" content="Noam Samuel" />
+<meta name="Version" content="<%= $version %>"/>
+<title><%= $Appname %></title>
+<style type="text/css">
+<%= $css %>
+</style>
+</head>
+<body>
+<div id="header"><h1><%= $Appname %></h1></div>
+<div class="nav floatcontainer" id="topnav"><ul> <li  class="selected"> <a href="<%= $siteurl %>">home</a></li> <% @departments.each do |department| %><li><%= link_to department.name, :controller => "classes", :action => "department", :id => department.id %></li><% end %></ul></div>
+<div id="container" class="floatcontainer">
+<ul class="nav subnav"><li>Please choose a class to view</li></ul>
+<div class="a"><h3>What is <%= $Appname%>?</h3><p><%= $Appname%> is a system allowind you to view information, worksheets and more about classes. If you are a teacher, note that you cannot edit your classes from the main interface.</p></div>
+<div class="b">
+<h2>Departments</h2><p>
+<% @departments.each do |department| %><h3><%= link_to department.name, :controller => "classes", :action => "department", :id => department.id %></h3><ul class="linkul"><% department.subjects.each do |subject| %><li><%= link_to subject.name, :controller => "classes", :action => "cover", :id => subject.id %></li><% end %></ul><% end %></p></div></div>
+<div id="footer"><%= $Footer %></div>
+</body>
+</html>
