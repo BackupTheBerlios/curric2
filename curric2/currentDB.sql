@@ -88,7 +88,7 @@ CREATE TABLE `teachers` (
 # Dumping data for table 'teachers'
 #
 
-INSERT INTO teachers VALUES (1,'Great teacher Largo','df4672d7fde0b4d55c74a9a3fe6983ac007b9d89');
+INSERT INTO teachers VALUES (1,'Great teacher Largo','22c75e483d77f323ffe1780a051ab5a0642fbea9');
 
 #
 # Table structure for table 'units'

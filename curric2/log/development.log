@@ -12655,3 +12655,986 @@ Subject Load (0.002480)  SELECT * FROM subjects WHERE subjects.department_id = 2
 Subject Load (0.002530)  SELECT * FROM subjects WHERE subjects.department_id = 3 
 Subject Load (0.002504)  SELECT * FROM subjects WHERE subjects.department_id = 4 
 Completed in 0.39078 (2 reqs/sec) | Rendering: 0.20708 (52%) | DB: 0.13242 (33%) [http://68.40.178.103/]
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:17:07 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:17:11 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:18:09 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:19:13 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:19:44 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:22:39 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:22:43 EST 2005)
+  Parameters: {}
+
+
+MissingSourceFile (no such file to load -- ./projects/curriculum/script/../config/../config/routes.rb):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/actionpack/lib/action_controller/routing.rb:530:in `reload'
+    /vendor/railties/lib/dispatcher.rb:49:in `prepare_application'
+    /vendor/railties/lib/dispatcher.rb:31:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    projects/curriculum/script/server:51
+
+
+
+
+Processing Base#index (for 127.0.0.1 at Mon Nov 07 17:24:10 EST 2005)
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/action"):
+    /vendor/actionpack/lib/action_controller/routing.rb:444:in `recognition_failed'
+    /vendor/actionpack/lib/action_controller/routing.rb:434:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ClassesController#index (for 127.0.0.1 at Mon Nov 07 17:24:16 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"classes"}
+Department Load (0.280854)  SELECT * FROM departments 
+Subject Load (0.016104)  SELECT * FROM subjects 
+Rendering classes/index (200 OK)
+Department Columns (0.001947)  SHOW FIELDS FROM departments
+Subject Load (0.002315)  SELECT * FROM subjects WHERE subjects.department_id = 1 
+Subject Columns (0.001614)  SHOW FIELDS FROM subjects
+Subject Load (0.001569)  SELECT * FROM subjects WHERE subjects.department_id = 2 
+Subject Load (0.001562)  SELECT * FROM subjects WHERE subjects.department_id = 3 
+Subject Load (0.001734)  SELECT * FROM subjects WHERE subjects.department_id = 4 
+Completed in 1.03648 (0 reqs/sec) | Rendering: 0.04658 (4%) | DB: 0.29696 (28%) [http://bella/]
+
+
+Processing ClassesController#cover (for 127.0.0.1 at Mon Nov 07 17:24:27 EST 2005)
+  Parameters: {"action"=>"cover", "id"=>"4", "controller"=>"classes"}
+Department Load (0.003958)  SELECT * FROM departments 
+Subject Load (0.063529)  SELECT * FROM subjects WHERE subjects.id = '4' LIMIT 1
+Subject Columns (0.003743)  SHOW FIELDS FROM subjects
+Department Load (0.023907)  SELECT * FROM departments WHERE departments.id = 4 LIMIT 1
+Department Columns (0.005336)  SHOW FIELDS FROM departments
+Subject Load (0.003619)  SELECT * FROM subjects WHERE subjects.department_id = 4 
+Unit Load (0.053608)  SELECT * FROM units WHERE units.subject_id = 4 
+Unit Load (0.013130)  SELECT * FROM units WHERE units.id = 1 LIMIT 1
+Unit Columns (0.005124)  SHOW FIELDS FROM units
+Document Load (0.005116)  SELECT * FROM documents WHERE documents.unit_id = 1 
+Rendering classes/cover (200 OK)
+Document Columns (0.003665)  SHOW FIELDS FROM documents
+Completed in 0.40479 (2 reqs/sec) | Rendering: 0.11847 (29%) | DB: 0.18107 (44%) [http://bella/classes/cover/4]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:24:36 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00848 (117 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:24:36 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Teacher Load (0.052511)  SELECT * FROM teachers WHERE teachers.id = 1 LIMIT 1
+Teacher Columns (0.002978)  SHOW FIELDS FROM teachers
+Completed in 0.08874 (11 reqs/sec) | Rendering: 0.00080 (0%) | DB: 0.05549 (62%) [http://bella/teacher/login]
+Teacher Columns (0.005567)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:24:42 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Completed in 0.00373 (268 reqs/sec) | Rendering: 0.00057 (15%) | DB: 0.00557 (149%) [http://bella/teacher/]
+Teacher Columns (0.008128)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#logout (for 127.0.0.1 at Mon Nov 07 17:24:46 EST 2005)
+  Parameters: {"action"=>"logout", "controller"=>"teacher"}
+Completed in 0.00731 (136 reqs/sec) | Rendering: 0.00055 (7%) | DB: 0.00813 (111%) [http://bella/teacher/logout]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:29:58 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.03307 (30 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/index]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:29:59 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.01608 (62 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:30:01 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Teacher Load (0.001726)  SELECT * FROM teachers WHERE teachers.id = 1 LIMIT 1
+Redirected to http://bella:3000/teacher
+Teacher Columns (0.002156)  SHOW FIELDS FROM teachers
+Completed in 0.08062 (12 reqs/sec) | DB: 0.00388 (4%) [http://bella/teacher/auth]
+Teacher Columns (0.001961)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:30:01 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Completed in 0.00303 (329 reqs/sec) | Rendering: 0.00045 (14%) | DB: 0.00196 (64%) [http://bella/teacher]
+Teacher Columns (0.009663)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#logout (for 127.0.0.1 at Mon Nov 07 17:30:08 EST 2005)
+  Parameters: {"action"=>"logout", "controller"=>"teacher"}
+Completed in 0.03380 (29 reqs/sec) | Rendering: 0.00255 (7%) | DB: 0.00966 (28%) [http://bella/teacher/logout]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:30:13 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00352 (284 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:30:13 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00413 (242 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:30:14 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Teacher Load (0.001650)  SELECT * FROM teachers WHERE teachers.id = 1 LIMIT 1
+Redirected to http://bella:3000/teacher
+Teacher Columns (0.002061)  SHOW FIELDS FROM teachers
+Completed in 0.03185 (31 reqs/sec) | DB: 0.00371 (11%) [http://bella/teacher/auth]
+Teacher Columns (0.002333)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:30:14 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Completed in 0.00381 (262 reqs/sec) | Rendering: 0.00054 (14%) | DB: 0.00233 (61%) [http://bella/teacher]
+Teacher Columns (0.013688)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#logout (for 127.0.0.1 at Mon Nov 07 17:31:33 EST 2005)
+  Parameters: {"action"=>"logout", "controller"=>"teacher"}
+Completed in 0.03397 (29 reqs/sec) | Rendering: 0.00206 (6%) | DB: 0.01369 (40%) [http://bella/teacher/logout]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:39 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00374 (267 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:39 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00333 (300 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:40 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.02488 (40 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:40 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00375 (267 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:41 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00354 (282 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:41 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.02138 (46 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:41 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00403 (248 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:42 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.01173 (85 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:42 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.03110 (32 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:42 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00379 (264 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:43 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00329 (304 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:43 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.02018 (49 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:43 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00303 (329 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:44 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00368 (272 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:44 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.01964 (50 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:44 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00298 (335 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:45 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00293 (341 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:45 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.02036 (49 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:31:45 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00362 (276 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:31:46 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00301 (332 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:31:46 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher
+Completed in 0.28353 (3 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:32:17 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00769 (130 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:32:18 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00679 (147 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:32:19 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.06101 (16 reqs/sec) | Rendering: 0.00115 (1%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:32:24 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00385 (259 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:32:24 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00343 (291 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:32:24 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.02210 (45 reqs/sec) | Rendering: 0.00069 (3%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:38:56 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00818 (122 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:38:57 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+
+
+ActionController::MissingTemplate (Missing template ./script/../config/../app/views//teacher/login.rhtml):
+    /vendor/actionpack/lib/action_controller/base.rb:827:in `assert_existance_of_template_file'
+    /vendor/actionpack/lib/action_controller/base.rb:586:in `render_with_no_layout'
+    /vendor/actionpack/lib/action_controller/layout.rb:216:in `render_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/base.rb:591:in `render_with_no_layout'
+    /vendor/actionpack/lib/action_controller/layout.rb:216:in `render_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/base.rb:604:in `render_with_no_layout'
+    /vendor/actionpack/lib/action_controller/layout.rb:216:in `render_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/base.rb:627:in `render_with_no_layout'
+    /vendor/actionpack/lib/action_controller/layout.rb:216:in `render_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:25:in `render'
+    /vendor/actionpack/lib/action_controller/base.rb:757:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:39:48 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+
+
+ActionController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and only once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return". Finally, note that to cause a before filter to halt execution of the rest of the filter chain, the filter must return false, explicitly, so "render(...) and return false".):
+    /vendor/actionpack/lib/action_controller/base.rb:695:in `redirect_to'
+    /vendor/actionpack/lib/action_controller/base.rb:706:in `redirect_to'
+    /app/controllers/teacher_controller.rb:14:in `login'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:40:24 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.01254 (79 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:40:26 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.15657 (6 reqs/sec) | Rendering: 0.03052 (19%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Mon Nov 07 17:40:59 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00472 (211 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Mon Nov 07 17:40:59 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/auth
+Completed in 0.00866 (115 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:41:00 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.04415 (22 reqs/sec) | Rendering: 0.00082 (1%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:41:04 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.03300 (30 reqs/sec) | Rendering: 0.00083 (2%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:42:30 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.04570 (21 reqs/sec) | Rendering: 0.00117 (2%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:43:43 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.02426 (41 reqs/sec) | Rendering: 0.00068 (2%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Mon Nov 07 17:43:47 EST 2005)
+  Parameters: {"action"=>"auth", "controller"=>"teacher"}
+Completed in 0.02129 (46 reqs/sec) | Rendering: 0.00058 (2%) | DB: 0.00000 (0%) [http://bella/teacher/auth]
+
+
+Processing ClassesController#index (for 68.40.145.16 at Tue Nov 08 09:33:05 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"classes"}
+Department Load (0.130251)  SELECT * FROM departments 
+Subject Load (0.009404)  SELECT * FROM subjects 
+Rendering classes/index (200 OK)
+Department Columns (0.301085)  SHOW FIELDS FROM departments
+Subject Load (0.002732)  SELECT * FROM subjects WHERE subjects.department_id = 1 
+Subject Columns (0.047588)  SHOW FIELDS FROM subjects
+Subject Load (0.002476)  SELECT * FROM subjects WHERE subjects.department_id = 2 
+Subject Load (0.002429)  SELECT * FROM subjects WHERE subjects.department_id = 3 
+Subject Load (0.002451)  SELECT * FROM subjects WHERE subjects.department_id = 4 
+Completed in 1.35640 (0 reqs/sec) | Rendering: 0.58997 (43%) | DB: 0.13966 (10%) [http://68.40.178.103/]
+
+
+Processing Base#index (for 66.35.250.150 at Tue Nov 08 20:26:57 EST 2005)
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/ok.txt"):
+    /vendor/actionpack/lib/action_controller/routing.rb:444:in `recognition_failed'
+    /vendor/actionpack/lib/action_controller/routing.rb:434:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing Base#index (for 220.135.78.22 at Tue Nov 08 21:19:37 EST 2005)
+  Parameters: {}
+
+
+ActionController::RoutingError (Recognition failed for "/sp_login.htm"):
+    /vendor/actionpack/lib/action_controller/routing.rb:444:in `recognition_failed'
+    /vendor/actionpack/lib/action_controller/routing.rb:434:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing Base#index (for 127.0.0.1 at Wed Nov 09 15:53:24 EST 2005)
+  Parameters: {}
+
+
+SyntaxError (./script/../config/../app/controllers/teacher_controller.rb:25: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:127:in `load_file!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:96:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `each'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:71:in `const_missing'
+    routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `eval'
+    /vendor/actionpack/lib/action_controller/routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `recognize_path'
+    /vendor/actionpack/lib/action_controller/routing.rb:433:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing Base#index (for 127.0.0.1 at Wed Nov 09 15:53:44 EST 2005)
+  Parameters: {}
+
+
+SyntaxError (./script/../config/../app/controllers/teacher_controller.rb:25: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:127:in `load_file!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:96:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `each'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:71:in `const_missing'
+    routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `eval'
+    /vendor/actionpack/lib/action_controller/routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `recognize_path'
+    /vendor/actionpack/lib/action_controller/routing.rb:433:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#login (for 127.0.0.1 at Wed Nov 09 15:54:53 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/login (200 OK)
+Completed in 0.07538 (13 reqs/sec) | Rendering: 0.07166 (95%) [http://bella/teacher/login]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Wed Nov 09 15:55:23 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/login (200 OK)
+Completed in 0.01869 (53 reqs/sec) | Rendering: 0.01132 (60%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 15:55:44 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.000000)  Unknown column 'teacher' in 'where clause': SELECT * FROM teachers WHERE teacher = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+
+
+ActiveRecord::StatementInvalid (Unknown column 'teacher' in 'where clause': SELECT * FROM teachers WHERE teacher = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9'  LIMIT 1):
+    /vendor/activerecord/lib/active_record/connection_adapters/abstract_adapter.rb:462:in `log'
+    /vendor/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:121:in `execute'
+    /vendor/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:230:in `select'
+    /vendor/activerecord/lib/active_record/connection_adapters/mysql_adapter.rb:97:in `select_all'
+    /vendor/activerecord/lib/active_record/base.rb:376:in `find_by_sql'
+    /vendor/activerecord/lib/active_record/base.rb:343:in `find'
+    /vendor/activerecord/lib/active_record/base.rb:341:in `find'
+    /app/models/teacher.rb:10:in `authenticate'
+    /app/controllers/teacher_controller.rb:17:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 15:56:37 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.119788)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+Completed in 0.17656 (5 reqs/sec) | Rendering: 0.00082 (0%) | DB: 0.11979 (67%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Wed Nov 09 15:56:43 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00425 (235 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Wed Nov 09 15:56:43 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/login (200 OK)
+Completed in 0.01352 (73 reqs/sec) | Rendering: 0.00932 (68%) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 15:59:17 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.002865)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+Completed in 0.05130 (19 reqs/sec) | Rendering: 0.00113 (2%) | DB: 0.00287 (5%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 16:02:34 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.176875)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+Completed in 0.53310 (1 reqs/sec) | Rendering: 0.00084 (0%) | DB: 0.17688 (33%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 16:04:00 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>""}
+Teacher Load (0.018567)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' LIMIT 1
+Completed in 0.06034 (16 reqs/sec) | Rendering: 0.00081 (1%) | DB: 0.01857 (30%) [http://bella/teacher/auth]
+
+
+Processing Base#index (for 127.0.0.1 at Wed Nov 09 16:06:46 EST 2005)
+  Parameters: {"password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/controllers/teacher_controller.rb:35: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:127:in `load_file!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:96:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `each'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:71:in `const_missing'
+    routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `eval'
+    /vendor/actionpack/lib/action_controller/routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `recognize_path'
+    /vendor/actionpack/lib/action_controller/routing.rb:433:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#hexdigest (for 127.0.0.1 at Wed Nov 09 16:07:11 EST 2005)
+  Parameters: {"action"=>"hexdigest", "controller"=>"teacher", "password"=>"ayalla"}
+Completed in 0.00448 (223 reqs/sec) | Rendering: 0.00069 (15%) | DB: 0.00000 (0%) [http://bella/teacher/hexdigest?password=ayalla]
+
+
+Processing TeacherController#hexdigest (for 127.0.0.1 at Wed Nov 09 16:07:15 EST 2005)
+  Parameters: {"action"=>"hexdigest", "controller"=>"teacher", "password"=>"ayalla"}
+Completed in 0.00453 (220 reqs/sec) | Rendering: 0.00068 (14%) | DB: 0.00000 (0%) [http://bella/teacher/hexdigest?password=ayalla]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 16:07:45 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.040333)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+Completed in 0.11849 (8 reqs/sec) | Rendering: 0.00084 (0%) | DB: 0.04033 (34%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 16:07:52 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>""}
+Teacher Load (0.033865)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709' LIMIT 1
+Completed in 0.07761 (12 reqs/sec) | Rendering: 0.00083 (1%) | DB: 0.03386 (43%) [http://bella/teacher/auth]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Wed Nov 09 16:08:39 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.003124)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+Teacher Columns (0.134299)  SHOW FIELDS FROM teachers
+Completed in 0.18882 (5 reqs/sec) | Rendering: 0.00092 (0%) | DB: 0.13742 (72%) [http://bella/teacher/auth]
+Teacher Columns (0.003682)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Wed Nov 09 16:08:43 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Completed in 0.01630 (61 reqs/sec) | Rendering: 0.00073 (4%) | DB: 0.00368 (22%) [http://bella/teacher/]
+Teacher Columns (0.010112)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#logout (for 127.0.0.1 at Wed Nov 09 16:08:46 EST 2005)
+  Parameters: {"action"=>"logout", "controller"=>"teacher"}
+Completed in 0.04375 (22 reqs/sec) | Rendering: 0.00080 (1%) | DB: 0.01011 (23%) [http://bella/teacher/logout]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Wed Nov 09 16:08:49 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.00427 (234 reqs/sec) | DB: 0.00000 (0%) [http://bella/teacher/]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Wed Nov 09 16:08:50 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/login (200 OK)
+Completed in 0.11079 (9 reqs/sec) | Rendering: 0.06131 (55%) | DB: 0.00000 (0%) [http://bella/teacher/login]
