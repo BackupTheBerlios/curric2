@@ -13638,3 +13638,568 @@ Processing TeacherController#login (for 127.0.0.1 at Wed Nov 09 16:08:50 EST 200
 Rendering  within layouts/teacher_layout
 Rendering teacher/login (200 OK)
 Completed in 0.11079 (9 reqs/sec) | Rendering: 0.06131 (55%) | DB: 0.00000 (0%) [http://bella/teacher/login]
+
+
+Processing TeacherController#index (for 127.0.0.1 at Tue Nov 15 19:18:24 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Redirected to http://bella:3000/teacher/login
+Completed in 0.01180 (84 reqs/sec) [http://bella/teacher]
+
+
+Processing TeacherController#login (for 127.0.0.1 at Tue Nov 15 19:18:24 EST 2005)
+  Parameters: {"action"=>"login", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/login (200 OK)
+Completed in 0.15085 (6 reqs/sec) | Rendering: 0.14782 (97%) [http://bella/teacher/login]
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:18:39 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing Base#index (for 127.0.0.1 at Tue Nov 15 19:22:21 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/controllers/teacher_controller.rb:11: syntax error
+			render {:action => "teacher_index"};
+			                  ^):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:127:in `load_file!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:96:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `each'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:71:in `const_missing'
+    routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `eval'
+    /vendor/actionpack/lib/action_controller/routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `recognize_path'
+    /vendor/actionpack/lib/action_controller/routing.rb:433:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing Base#index (for 127.0.0.1 at Tue Nov 15 19:22:58 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/controllers/teacher_controller.rb:11: syntax error
+			render {:action => "teacher_index"};
+			                  ^):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:127:in `load_file!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:96:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `each'
+    /vendor/activesupport/lib/active_support/dependencies.rb:79:in `const_load!'
+    /vendor/activesupport/lib/active_support/dependencies.rb:71:in `const_missing'
+    routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `eval'
+    /vendor/actionpack/lib/action_controller/routing.rb:219:in `traverse_to_controller'
+    generated/routing/recognition.rb:7:in `recognize_path'
+    /vendor/actionpack/lib/action_controller/routing.rb:433:in `recognize!'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:23:24 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:24:30 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:25:11 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:25:43 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:26:08 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:26:30 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:26:49 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:27:33 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+
+
+SyntaxError (./script/../config/../app/models/teacher.rb:8: void value expression
+./script/../config/../app/models/teacher.rb:8: odd number list for Hash
+./script/../config/../app/models/teacher.rb:8: syntax error
+./script/../config/../app/models/teacher.rb:14: syntax error):
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:193:in `load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:38:in `require_or_load'
+    /vendor/activesupport/lib/active_support/dependencies.rb:21:in `depend_on'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:171:in `require_dependency'
+    /vendor/activesupport/lib/active_support/dependencies.rb:183:in `const_missing'
+    /app/controllers/teacher_controller.rb:22:in `auth'
+    /vendor/actionpack/lib/action_controller/base.rb:756:in `perform_action_without_filters'
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing TeacherController#auth (for 127.0.0.1 at Tue Nov 15 19:28:59 EST 2005)
+  Parameters: {"name"=>"Great teacher Largo", "action"=>"auth", "controller"=>"teacher", "password"=>"ayalla"}
+Teacher Load (0.081303)  SELECT * FROM teachers WHERE name = 'Great teacher Largo' and password = '22c75e483d77f323ffe1780a051ab5a0642fbea9' LIMIT 1
+Teacher Columns (0.379920)  SHOW FIELDS FROM teachers
+Completed in 1.26166 (0 reqs/sec) | Rendering: 0.00268 (0%) | DB: 0.46122 (36%) [http://bella/teacher/auth]
+Teacher Columns (0.043601)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Tue Nov 15 19:29:09 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/teacher_index (200 OK)
+Subject Load (0.294166)  SELECT * FROM subjects WHERE subjects.teacher_id = 1 
+Subject Columns (0.013363)  SHOW FIELDS FROM subjects
+Completed in 0.38075 (2 reqs/sec) | Rendering: 0.37029 (97%) | DB: 0.04360 (11%) [http://bella/teacher]
+Teacher Columns (0.022164)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Tue Nov 15 19:29:13 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/teacher_index (200 OK)
+Subject Load (0.007398)  SELECT * FROM subjects WHERE subjects.teacher_id = 1 
+Subject Columns (0.007495)  SHOW FIELDS FROM subjects
+Completed in 0.05969 (16 reqs/sec) | Rendering: 0.05560 (93%) | DB: 0.02216 (37%) [http://bella/teacher]
+Teacher Columns (0.027177)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Tue Nov 15 19:30:50 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/teacher_index (200 OK)
+Subject Load (0.014372)  SELECT * FROM subjects WHERE subjects.teacher_id = 1 
+Subject Columns (0.017696)  SHOW FIELDS FROM subjects
+Completed in 0.10570 (9 reqs/sec) | Rendering: 0.08372 (79%) | DB: 0.02718 (25%) [http://bella/teacher]
+Teacher Columns (0.009730)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#subject (for 127.0.0.1 at Tue Nov 15 19:31:02 EST 2005)
+  Parameters: {"action"=>"subject", "id"=>"4", "controller"=>"teacher"}
+
+
+ActionController::UnknownAction (No action responded to subject):
+    /vendor/actionpack/lib/action_controller/filters.rb:295:in `perform_action_without_benchmark'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `measure'
+    /vendor/actionpack/lib/action_controller/benchmarking.rb:41:in `perform_action_without_rescue'
+    /vendor/actionpack/lib/action_controller/rescue.rb:80:in `perform_action'
+    /vendor/actionpack/lib/action_controller/base.rb:356:in `process'
+    /vendor/railties/lib/dispatcher.rb:32:in `dispatch'
+    /vendor/railties/lib/webrick_server.rb:105:in `handle_dispatch'
+    /vendor/railties/lib/webrick_server.rb:71:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:172:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:161:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /vendor/railties/lib/webrick_server.rb:57:in `dispatch'
+    script/server:51
+
+
+Rendering ./script/../config/../vendor/actionpack/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+Teacher Columns (0.005784)  SHOW FIELDS FROM teachers
+
+
+Processing TeacherController#index (for 127.0.0.1 at Tue Nov 15 19:34:01 EST 2005)
+  Parameters: {"action"=>"index", "controller"=>"teacher"}
+Rendering  within layouts/teacher_layout
+Rendering teacher/teacher_index (200 OK)
+Subject Load (0.008231)  SELECT * FROM subjects WHERE subjects.teacher_id = 1 
+Subject Columns (0.006205)  SHOW FIELDS FROM subjects
+Completed in 0.08027 (12 reqs/sec) | Rendering: 0.07092 (88%) | DB: 0.00578 (7%) [http://bella/teacher]

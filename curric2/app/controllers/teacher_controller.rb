@@ -5,7 +5,10 @@ class TeacherController < ApplicationController
 
 	def index
 		if @session["teacher"]
-			render_text "You are logged in as " + @session["teacher"].name + "<br /> <a href='/teacher/logout'>logout</a>"
+			@teacher = @session["teacher"];
+			@classes = @teacher.subjects;
+		#	@depaerments = @teacher.departments;
+			render :action => "teacher_index"
 		else
 			redirect_to :action => "login"
 		end
@@ -18,10 +21,10 @@ class TeacherController < ApplicationController
 	def auth
 		@teach = Teacher.authenticate(@params["name"], @params["password"])
 		if @teach
-			render_text "Seccessfully logged in";
+			render :inline => "Seccessfully logged in";
 			@session["teacher"]=@teach
 		else
-			render_text "No login :(";
+			render :inline => "No login :(";
 		end
 	
 		
@@ -29,7 +32,7 @@ class TeacherController < ApplicationController
 	
 	def logout
 		reset_session
-		render_text "Nevermind"
+		render :inline => "Nevermind"
 	end
 	
 	def hexdigest
